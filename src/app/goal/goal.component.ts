@@ -8,7 +8,7 @@ import {Goal} from '../goal'
 export class GoalComponent implements OnInit {
 
   goals = [
-       new Goal(1,'Watch venom','Find an online version of the thriller action movie', new Date(2018,3,14)),
+       new Goal(1,'Watch venom','Find an online version of the thriller action movie', new Date(2018,0,0)),
        new Goal(2,'Buy Cakes','I have to buy cakes for my sister', new Date(2018,6,9)),
        new Goal(3, 'Go shopping','pinky has her birthday coming up soon', new Date(2018,1,12)),
        new Goal(4, 'Get Dog Food','Pupper likes expensive sancks', new Date(2018,0,18)),
